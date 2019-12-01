@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>木枣粽子 | BLOG</title><meta name="description" content=""><meta name="keywords"><meta name="author" content="木枣粽子"><meta name="copyright" content="木枣粽子"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="preconnect" href="//cdn.jsdelivr.net"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="木枣粽子 | BLOG"><meta name="twitter:description" content=""><meta name="twitter:image" content="https://www.cayun.me/img/head.jpg"><meta property="og:type" content="website"><meta property="og:title" content="木枣粽子 | BLOG"><meta property="og:url" content="https://www.cayun.me/"><meta property="og:site_name" content="木枣粽子 | BLOG"><meta property="og:description" content=""><meta property="og:image" content="https://www.cayun.me/img/head.jpg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = 'false'
+var t = Cookies.get("theme");
+if (autoChangeMode == '1'){
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+if (t === undefined){
+  if (isLightMode) activateLightMode()
+  else if (isDarkMode) activateDarkMode()
+  else if (isNotSpecified || hasNoSupport){
+    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+    now = new Date();
+    hour = now.getHours();
+    isNight = hour < 6 || hour >= 18
+    isNight ? activateDarkMode() : activateLightMode()
+}
+} else if (t == 'light') activateLightMode()
+else activateDarkMode()
+
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://www.cayun.me/"><link rel="dns-prefetch" href="https://www.google-analytics.com"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-93052608-1', 'auto');
+ga('send', 'pageview');
+</script><link rel="preload" href="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" as="image"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight_copy: 'false',
+  highlight_lang: 'true',
+  highlight_shrink: 'false',
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  copyright: undefined,
+  copy_copyright_js: false,
+  ClickShowText: undefined,
+  medium_zoom: 'false',
+  Snackbar: undefined
+  
+}</script></head><body><div id="header"> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">木枣粽子 | BLOG</a></span><i class="fa fa-bars fa-fw toggle-menu pull_right close" aria-hidden="true"></i><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> HOME</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"></span></div></div><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="lazyload avatar_img" src="/img/head.jpg" onerror="onerror=null;src='/img/friend_404.gif'"></div><div class="mobile_post_data"><div class="mobile_data_item is_center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">195</div></a></div></div><div class="mobile_data_item is_center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">145</div></a></div></div><div class="mobile_data_item is_center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">22</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> HOME</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><nav class="full_page" id="nav"><div class="nav_bg" style="background-image: url(https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture)"></div><div id="site-info"><div id="site-title"><span class="blogtitle">木枣粽子 | BLOG</span></div><div id="site-sub-title"><span class="subtitle"></span></div><div id="site-social-icons"><a class="social-icon" href="https://github.com/muzaozong" target="_blank"><i class="fa fa-github"></i></a><a class="social-icon" href="mailto:muzaozong@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank"><i class="fa fa-rss"></i></a></div></div><div class="scroll-down"><i class="fa fa-angle-down scroll-down-effects"></i></div></nav><div id="content-outer"><div class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/java/%E5%8F%8C%E5%8D%81%E4%B8%80%E5%8E%8B%E6%B5%8B&amp;Java%E5%BA%94%E7%94%A8%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E6%80%BB%E7%BB%93/" title="双十一压测&amp;Java应用性能问题排查总结">双十一压测&amp;Java应用性能问题排查总结</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-11-07</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><div class="content">连续参加了两年公司的双十一大促压测项目，遇到了很多问题，也成长了很多，于是在这里对大促压测做一份总结。以及记录一下大促压测过程中出现的一些常见的Java应用性能问题。
+
+
+一、为什么要压测
+找出应用的性能瓶颈
+探究应用的性能基准
+给大促机器扩容提供参考依据
+
+二、如何压测关注哪些指标吞吐率 TPS（ ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/java/JVM%E5%B8%B8%E9%87%8F%E6%B1%A0&amp;%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%98%E5%82%A8/" title="JVM常量池&amp;字符串存储">JVM常量池&amp;字符串存储</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-27</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><div class="content">本文基于openjdk11及hotspot
+根据查阅大量网上资料，综合而言可以得到这样一些内容:
+JVM中常量池分为如下三种: 字符串常量池、class文件常量池、运行时常量池。
+字符串常量池
+字符串常量池与jdk1.7之后变移到了heap区中，且StringTable在JVM中只有一份，被所有类共 ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/java/Java%20metaspace%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/" title="Java metaspace源码解析">Java metaspace源码解析</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-08-09</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><div class="content">本文基于openjdk11及hotspot
+从Java8开始，JVM中的永久代被替换为了metaspace，本文将根据JVM源码对metaspace的初始化、分配内存、释放内存三个主要过程进行解析。
+
+
+1. 数据结构在metaspace中有如下一些概念，metaspace、classLoaderM ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/java/Java%E5%AF%B9%E8%B1%A1%E5%88%86%E9%85%8D%E5%8E%9F%E7%90%86/" title="Java对象分配原理">Java对象分配原理</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-06-28</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><div class="content">本文基于openjdk11及hotspot
+
+
+Java对象模型: OOP-Klass模型在正式探讨JVM对象的创建前，先简单地介绍一下hotspot中实现的Java的对象模型。在JVM中，并没有直接将Java对象映射成C++对象，而是采用了oop-klass模型，主要是不希望每个对象中都包含有一份 ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/java/ThreadPoolExecutor/" title="ThreadPoolExecutor源码阅读">ThreadPoolExecutor源码阅读</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-05-23</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><div class="content">在阿里巴巴的Java开发手册中看到了线程池比较推荐使用ThreadPoolExecutor，于是每次也都是照葫芦画瓢地使用，对于其中的参数(corePoolSize, maximumPoolSize,keepAliveTime , workQueue)等完全靠着yy去使用。每次用的是时候都感觉心慌慌 ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/java/Java8%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/" title="Java8函数式编程">Java8函数式编程</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-04-18</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><div class="content">最近使用lambda表达式，感觉使用起来非常舒服，箭头函数极大增强了代码的表达能力。于是决心花点时间深入地去研究一下java8的函数式。
+
+
+一、lambda表达式先po一个最经典的例子——线程
+1public static void main(String[] args) &#123;2  //  ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/%E7%BD%91%E7%BB%9C/%E7%94%A8c%E8%AF%AD%E8%A8%80%E5%86%99%E4%B8%80%E4%B8%AAsocks5%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/" title="用c语言写一个socks5代理服务器">用c语言写一个socks5代理服务器</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-29</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/%E7%BD%91%E7%BB%9C/">网络</a></span><div class="content">一直以来都对ss的底层实现原理非常感兴趣，但是却一直都没有去真正地学习研究过。这次恰好因为服务器被连封两次，借此契机，决定研究一下socks5代理，并写出一个属于自己的socks5代理服务器。
+
+
+准备应用架构参考ss的结构，整个应用包含了两个部分——服务端和客户端。其中客户端的作用是为了实现与服务 ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/spring/ExceptionHandler%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F/" title="ExceptionHandler的执行顺序">ExceptionHandler的执行顺序</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-27</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/spring/">spring</a></span><div class="content">在项目开发中经常会遇到统一异常处理的问题，在springMVC中有一种解决方式，使用ExceptionHandler。举个例子，
+1@ControllerAdvice2public class GlobalExceptionHandler &#123;34    private static fin ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/java/java%E5%A4%9A%E5%B1%82%E8%B7%B3%E6%9D%BF%E6%9C%BA%E6%89%A7%E8%A1%8C%E8%BF%9C%E7%A8%8Bssh/" title="Java多层跳板机执行远程命令">Java多层跳板机执行远程命令</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-25</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><div class="content">可能是巧合吧，近期在开发过程中总是会遇到多层跳板机执行远程命令的场景。之前通过shell执行的情况，发现ssh命令存在一个参数-J可以支持多层跳板机，具体可以参考之前的一篇文章——ssh多层跳板机解决方法。但是当Java项目尝试去使用ssh执行远程命令时，发现无论是ganymed-ssh-2还是js ...</div></div></div><div class="recent-post-item article-container"><div class="recent-post-info">  <a class="article-title" href="/python/python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E5%8E%9F%E7%90%86/" title="virtualenv虚拟环境原理">virtualenv虚拟环境原理</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-02-26</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fa fa-inbox article-meta__icon" aria-hidden="true"></i><a class="article-meta__categories" href="/categories/python/">python</a></span><div class="content">前言用过几次python的虚拟环境，感觉非常爽，一直想去了解它的原理，于是借此机会，做了一次源码学习，但由于conda的源码比较复杂，于是此文便以virtualenv作为切入点。
+问题在之前，我一直有如下几个疑惑，在此先抛出来
+
+python是怎么决定默认包搜索路径？
+激活虚拟环境与直接调用虚拟环境 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/20/">20</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-chevron-right"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card_widget card-author"><div class="card-content"><div class="post_data"><div class="data-item is_center"><img class="lazyload avatar_img" src="/img/head.jpg" onerror="onerror=null;src='/img/friend_404.gif'"><p class="author-info__name is_center">木枣粽子</p><p class="author-info__description is_center"></p></div></div><div class="post_data data_config"><div class="data-item is_center"><div class="data_link"><a href="/archives/"><p class="headline">文章</p><p class="length_num">195</p></a></div></div><div class="data-item is_center">      <div class="data_link"><a href="/tags/"><p class="headline">标签</p><p class="length_num">145</p></a></div></div><div class="data-item is_center">     <div class="data_link"><a href="/categories/"><p class="headline">分类</p><p class="length_num">22</p></a></div></div></div><div class="post_data is_center"><a class="data-item bookmark bookmarke--primary bookmark--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="post_data data_config"><div id="aside-social-icons"> <a class="social-icon data-item" href="https://github.com/muzaozong" target="_blank"><i class="fa fa-github"></i></a><a class="social-icon data-item" href="mailto:muzaozong@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a><a class="social-icon data-item" href="/atom.xml" target="_blank"><i class="fa fa-rss"></i></a></div></div></div></div><div class="card_widget card-categories"><div class="card-content"><div class="item_headline"><i class="fa fa-folder-open" aria-hidden="true"></i><span>分类</span></div><ul class="aside_category_item">       <li class="aside_category_list"><a class="aside_category_list_link" href="/categories/ACM-ICPC/"><span class="aside_category_list_name">ACM/ICPC</span><span class="aside_category_list_length">94</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/Android/"><span class="aside_category_list_name">Android</span><span class="aside_category_list_length">3</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/Hexo/"><span class="aside_category_list_name">Hexo</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/Java/"><span class="aside_category_list_name">Java</span><span class="aside_category_list_length">25</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/MongoDB/"><span class="aside_category_list_name">MongoDB</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/SVN/"><span class="aside_category_list_name">SVN</span><span class="aside_category_list_length">3</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/css/"><span class="aside_category_list_name">css</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/git/"><span class="aside_category_list_name">git</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/java/"><span class="aside_category_list_name">java</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/javascript/"><span class="aside_category_list_name">javascript</span><span class="aside_category_list_length">4</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/linux/"><span class="aside_category_list_name">linux</span><span class="aside_category_list_length">13</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/mysql/"><span class="aside_category_list_name">mysql</span><span class="aside_category_list_length">2</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/python/"><span class="aside_category_list_name">python</span><span class="aside_category_list_length">2</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/redis/"><span class="aside_category_list_name">redis</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/scala/"><span class="aside_category_list_name">scala</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/spring/"><span class="aside_category_list_name">spring</span><span class="aside_category_list_length">31</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/tomcat/"><span class="aside_category_list_name">tomcat</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/vue/"><span class="aside_category_list_name">vue</span><span class="aside_category_list_length">5</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"><span class="aside_category_list_name">大数据</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/%E6%9D%82%E9%A1%B9/"><span class="aside_category_list_name">杂项</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"><span class="aside_category_list_name">正则表达式</span><span class="aside_category_list_length">1</span></a></li><li class="aside_category_list"><a class="aside_category_list_link" href="/categories/%E7%BD%91%E7%BB%9C/"><span class="aside_category_list_name">网络</span><span class="aside_category_list_length">2</span></a></li></ul></div></div><div class="card_widget card-webinfo"><div class="card-content"><div class="item_headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo_item"><div class="webinfo_article_name">文章数目 :</div><div class="webinfo_article_count">195</div></div><div class="webinfo_item"><div class="webinfo_runtime_name">已运行时间 :</div><div class="webinfo_runtime_count" id="webinfo_runtime_count"></div><script id="runtionshow" src="/js/runtimeshow.js" start_date="2019/12/02 00:00:00">      </script></div><div class="webinfo_item">      <div class="webinfo_site_uv_name">本站访客数 :</div><div class="webinfo_site_uv_count" id="busuanzi_value_site_uv"></div></div><div class="webinfo_item"><div class="webinfo_site_name">本站总访问量 :</div><div class="webinfo_site_pv_count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></div></div><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2019 By 木枣粽子</div><div class="framework-info"><span>驱动 </span><a href="http://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="/js/baidupush.js"> </script><script>if (/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {} else {
+  $('.full_page .nav_bg').css('background-attachment', 'fixed');
+}
+
+</script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var typed = new Typed(".subtitle", {
+strings: '不积跬步&#44;无以至千里'.split(","),
+startDelay: 300,
+typeSpeed: 100,
+loop: true,
+backSpeed: 50
+});
+</script><script>//首頁fullpage
+function alignContent() {
+  for (var n = $(window).height(), e = document.querySelectorAll(".full_page"), i = 0; i < e.length; i++) 
+    e[i].style.height = n + "px";
+    $("#site-info").each(function () {
+      var x = $(this).height();
+      $(this).css("top", (n-x)/2)       
+    })
+}
+alignContent();
+
+$(window).bind("resize", function () {
+  alignContent()
+})</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script></body></html>
