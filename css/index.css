@@ -1400,7 +1400,7 @@ canvas,
   padding: 0;
   padding-top: 1.4rem;
   background: #f6f8fa;
-  color: #90a4ae;
+  color: #3f3f3f;
   font-size: 14px;
   line-height: 7px;
 }
@@ -1439,7 +1439,7 @@ blockquote footer cite:before {
 .article-container pre code {
   padding: 0;
   background: none;
-  color: #90a4ae;
+  color: #3f3f3f;
   text-shadow: none;
 }
 .article-container figure.highlight:after {
@@ -1462,7 +1462,7 @@ blockquote footer cite:before {
 }
 .article-container .highlight .line::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container .highlight table {
   position: relative;
@@ -1491,7 +1491,7 @@ blockquote footer cite:before {
   padding: 0.2em 0 0.2em 0.7rem;
   width: 100%;
   height: 1.4em;
-  color: #90a4ae;
+  color: #3f3f3f;
   font-size: 1em;
   line-height: 1em;
 }
@@ -1514,10 +1514,10 @@ blockquote footer cite:before {
 .article-container .highlight figcaption a {
   float: right;
   padding-right: 10px;
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container .highlight figcaption a:hover {
-  border-bottom-color: #90a4ae;
+  border-bottom-color: #3f3f3f;
 }
 .article-container .highlight figcaption+table {
   margin-top: 1em;
@@ -1573,7 +1573,7 @@ blockquote footer cite:before {
 }
 .article-container pre .comment::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container pre .variable,
 .article-container pre .attribute,
@@ -1602,14 +1602,14 @@ blockquote footer cite:before {
 .article-container pre .css .class::selection,
 .article-container pre .css .pseudo::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container pre .tag {
   color: #39adb5;
 }
 .article-container pre .tag::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container pre .number,
 .article-container pre .preprocessor,
@@ -1626,14 +1626,14 @@ blockquote footer cite:before {
 .article-container pre .constant::selection,
 .article-container pre .command::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container pre .built_in {
   color: #ffb62c;
 }
 .article-container pre .built_in::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container pre .ruby .class .title,
 .article-container pre .css .rules .attribute,
@@ -1660,7 +1660,7 @@ blockquote footer cite:before {
 .article-container pre .number::selection,
 .article-container pre .formula::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container pre .keyword,
 .article-container pre .title,
@@ -1671,7 +1671,7 @@ blockquote footer cite:before {
 .article-container pre .title::selection,
 .article-container pre .css .hexcolor::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container pre .function,
 .article-container pre .python .decorator,
@@ -1692,7 +1692,7 @@ blockquote footer cite:before {
 .article-container pre .javascript .title::selection,
 .article-container pre .coffeescript .title::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 .article-container pre .tag .attr,
 .article-container pre .javascript .function {
@@ -1701,7 +1701,7 @@ blockquote footer cite:before {
 .article-container pre .tag .attr::selection,
 .article-container pre .javascript .function::selection {
   background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  color: #3f3f3f;
 }
 #aside_content {
   width: 25%;
@@ -3870,7 +3870,7 @@ img:hover {
   font-weight: bold;
   font-size: 0.8rem;
   line-height: 1.4rem;
-  color: #90a4ae;
+  color: #3f3f3f;
   left: 30px;
   z-index: 1;
   cursor: pointer;
@@ -3878,7 +3878,7 @@ img:hover {
 .code-expand {
   position: absolute;
   top: 0;
-  color: #90a4ae;
+  color: #3f3f3f;
   padding: 7px 10px;
   z-index: 1;
   cursor: pointer;
