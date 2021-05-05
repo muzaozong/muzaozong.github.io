@@ -114,19 +114,19 @@ Java对象模型: OOP-Klass模型在正式探讨JVM对象的创建前，先简�
 }
 
 </script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var typed = new Typed(".subtitle", {
-strings: 'Take a walk, and sing a song.'.split(","),
+strings: 'Take a walk&#44; and sing a song.'.split(","),
 startDelay: 300,
 typeSpeed: 100,
-loop: true,
+loop: false,
 backSpeed: 50
 });
 </script><script>//首頁fullpage
 function alignContent() {
-  for (var n = $(window).height(), e = document.querySelectorAll(".full_page"), i = 0; i < e.length; i++) 
+  for (var n = $(window).height(), e = document.querySelectorAll(".full_page"), i = 0; i < e.length; i++)
     e[i].style.height = n + "px";
     $("#site-info").each(function () {
       var x = $(this).height();
-      $(this).css("top", (n-x)/2)       
+      $(this).css("top", (n-x)/2)
     })
 }
 alignContent();
